@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>PopChoice</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index2.css">
+    </head>
+    <body>
+        <header>
+            <img src="./picon.png"/>
+            <h1 id="person-number">1</h1>
+        </header>
+        <main> 
+            <form>
+            <div class="choices">
+            <label for="reason">What's your favorite movie and why?</label>
+            <textarea rows="3" cols="3" maxlength="100" name="reason" id="reason"></textarea>
+            </div>
+            <div class="choices">
+            <label for="moodnc">Are you in the mood for something new or a classic?</label>
+            <div class="moods">
+            <button name="mood" id="new" data-mood="new">New</button>
+            <button name="mood" id="classic" data-mood="classic">Classic</button>
+            </div>
+            </div>
+            <div class="choices">
+            <label for="mood">Are you in the mood for something new or a classic?</label>
+            <div class="moods">
+            <button name="mood" id="fun" data-mood="fun">Fun</button>
+            <button name="mood" id="serious" data-mood="serious">Serious</button>
+            <button name="mood" id="inspiring" data-mood="inspiring">Inspiring</button>
+            <button name="mood" id="scary" data-mood="scary">Scary</button>
+            </div>
+            </div>
+            <div class="choices">
+            <label for="famous">Which famous film person would you love to be stranded on an island with and why?</label>
+            <textarea rows="3" cols="3" maxlength="100" name="famous" id="famous"></textarea>
+            </div>
+            <button class="finaln" id="next">Next Person</button>
+            </form>
+        </main>
+        <script type="module" src="index2.js"></script>
+    </body>
+</html>  
